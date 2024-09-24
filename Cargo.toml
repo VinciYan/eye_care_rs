@@ -1,0 +1,16 @@
+[package]
+name = "eye_care_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+toml = "0.8.19"
+serde = { version = "1.0", features = ["derive"] }
+structopt = "0.3"
+winit = "0.27"
+pixels = "0.11"
+wgpu = "0.15"  # 示例版本，请根据实际情况调整
+winapi = "0.3"
+clap = { version = "4.0", features = ["derive"] }
+env_logger = "0.9"
+anyhow = "1.0.86"
